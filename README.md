@@ -30,3 +30,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
         render: 'canvas',
         background: '#ace'
       })
+ //three.js 登录界面---src-components---logingTest.vue       
+//three.js 已经移除canvas渲染 使用以下代码
+ renderer = new THREE.WebGLRenderer()
+ renderer.setClearColor(0x08f7f4, 0.5)
