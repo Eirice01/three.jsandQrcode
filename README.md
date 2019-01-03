@@ -19,3 +19,14 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+//核心代码  qrcode  
+ qrcode () {
+      let qrcode = new QRCode('qrcode', {
+        width: 100,
+        height: 100,
+        text: 'Eirice',
+        render: 'canvas',
+        background: '#ace'
+      })
